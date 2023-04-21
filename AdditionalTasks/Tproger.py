@@ -67,3 +67,19 @@
 # reversed_str = my_str[::-1]
 # if my_str == reversed_str: print('YES')
 # else: print('NO')
+
+# Задача 9
+# Сделайте так, чтобы число секунд отображалось в виде дни:часы:минуты:секунды.
+# def convert(seconds):
+#     days = seconds // (24 * 3600)
+#     seconds %= 24 * 3600
+#     hours = seconds // 3600
+#     seconds %= 3600
+#     minutes = seconds // 60
+#     seconds %= 60
+#     print(f'{days}:{hours}:{minutes}:{seconds}')
+# convert(123456)
+
+# Задача 10
+# Вы принимаете от пользователя последовательность чисел, разделённых запятой. 
+# Составьте список и кортеж с этими числами.

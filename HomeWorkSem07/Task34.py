@@ -8,7 +8,8 @@
 # порядке и “Пам парам”, если с ритмом все не в порядке
 
 def check_rhythm(some_str):
-    return len(set(line.count('ауоыиэяюёе') for line in some_str.split())) == 1
+    return len(set(sum(letter in 'ауоыиэяюёе' for letter in line) 
+                   for line in some_str.split())) == 1
 
 
 poem = input('Введите кричалку Винни: ')
